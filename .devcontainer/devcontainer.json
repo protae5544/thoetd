@@ -1,0 +1,12 @@
+{
+  "name": "Thoetd Auto Unzip & Build",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
+  "postCreateCommand": "unzip -o 'pdf-field-editor-improved (12).zip' && echo '🔥 แตก zip แล้ว! 🔥' && ls -l",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": []
+    }
+  }
+}
